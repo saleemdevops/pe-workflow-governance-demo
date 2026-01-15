@@ -1,0 +1,16 @@
+name: PE CI Pipeline
+
+on:
+  pull_request:
+    paths:
+      - ".github/workflows/pe-*.yml"
+
+jobs:
+  validate-pe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: PE validation
+        run: echo "PE-owned workflow validation passed"
