@@ -1,6 +1,6 @@
 # Platform Engineering owns critical workflows
-.github/workflows/pe-*.yml        @platform-engineering-team
-.github/workflows/security-*.yml  @platform-engineering-team
+.github/workflows/pe-*.yml        @saleemdevops
+.github/workflows/security-*.yml  @saleemdevops
 
 # Developers own application code
-/app/                             @dev-team
+/app/                             @devops-saleem
