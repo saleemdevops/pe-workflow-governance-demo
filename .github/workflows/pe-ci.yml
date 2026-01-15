@@ -13,4 +13,4 @@ jobs:
         uses: actions/checkout@v4
 
       - name: PE validation
-        run: echo "PE-owned workflow validation passed"
+        run: echo "PE-owned workflow validation passed and updated"
